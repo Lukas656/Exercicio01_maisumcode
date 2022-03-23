@@ -1,0 +1,57 @@
+
+img{
+    width: 200px;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    
+}
+figure img{
+    padding-left: 25px;
+    width: 100px;
+}
+button{
+    color:rgb(211, 15, 15);
+   
+}
+button:hover{
+    background-color: rgb(105, 135, 224);
+}
+.caixa01{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px;
+    padding: 10px;
+    margin-left: 300px;
+    color: white;
+    background: black;
+    border: 2px solid rgb(63, 56, 56);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(133, 19, 19);
+}
+h2{
+    text-align: center;
+}
+.caixa02{
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    margin-left: 300px;
+    color: rgb(226, 87, 87);
+    background: black;
+    border: 2px solid rgb(63, 56, 56);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(133, 19, 19);
+}
+.caixa01:hover{
+    box-shadow:  15px -15px 0 rgb(133, 19, 19),  -15px 15px 20px rgb(133, 19, 19);
+    -webkit-transition : box-shadow ease-out 0.6s;
+    transition : box-shadow ease-out 0.6s;  }
+
+    .caixa02:hover{
+        box-shadow:  15px -15px 0 rgb(133, 19, 19),  -15px 15px 20px rgb(133, 19, 19);
+        -webkit-transition : box-shadow ease-out 0.6s;
+        transition : box-shadow ease-out 0.6s;  }      
+ 
