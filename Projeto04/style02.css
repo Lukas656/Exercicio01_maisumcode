@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+   
+}
+
+body{
+    background-image: url(img/papel-de-parede.jpg);
+}
+header{
+    margin: 0px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+h2{
+    margin: 5px;
+}
+.card-text{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0)
+
+}
+#logo{
+  margin-left: 500px;
+  width: 300px;
+  background-color: black;
+}
+a{
+    text-decoration: none;
+}
+input[type="button"]{
+    background-color: rgb(210, 210, 19);
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+}
+header a{
+    text-align: center;
+    margin-left: 100px ;
+    width: 40px;
+    height: 30px;
+    color: rgb(230, 230, 230);
+}
+header a:hover{
+    background-color: rgb(159, 8, 8);
+    border: 2px solid rgb(159, 8, 8);
+    border-radius: 2px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+#conteiner{
+    text-align: center;
+    margin-left: 80px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+figure img{
+    margin-top: 15px;
+    width: 180px;
+    height: 180px;
+}
+.cards{ 
+    background-color: rgb(2, 2, 47);
+    margin: 40px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 3px solid rgb(241, 14, 14);
+    border-radius: 2px;
+}
+
