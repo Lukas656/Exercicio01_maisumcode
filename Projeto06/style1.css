@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: #dd6a0c;
+
+}
+h1{
+    border-bottom: 1px solid rgb(255, 79, 15); 
+    
+}
+h1:hover{
+   border-bottom: 2px  solid rgb(255, 79, 15); 
+   border-left: 2px  solid rgb(255, 79, 15); 
+   border-radius: 5px;
+}
+h2:hover{
+    border-bottom: 2px  solid rgb(255, 79, 15); 
+   border-left: 2px  solid rgb(255, 79, 15); 
+   border-radius: 5px;
+}
+h1 img{
+    width: 80px;
+}
+header{
+    padding: 10px;
+    background-color: rgb(86, 78, 78);
+}
+header a{
+    color: rgb(21, 252, 0);
+    margin-left: 57vh;
+    border: 3px 3px solid rgb(0, 0, 0);
+}
+
+.inicio{
+    text-align: center;
+    padding: 25px;
+}
+.conteiner_w{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 204vh;
+    text-align: center;
+    height: 90vh; 
+}
+.conteiner_b{
+    
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 204vh;
+    text-align: center;
+    height:100vh; 
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    padding-top: 45px;
+}
+.card img{
+    width: 210px;
+    margin: 55px; 
+}
+.card{
+    border: 2px solid rgb(146, 41, 3);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.galery a{
+    color: rgb(245, 116, 69);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    font-size: 50px;
+}
+section h2{
+    font-size: 40px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
