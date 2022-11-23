@@ -1,0 +1,84 @@
+              /*Combinadores*/
+
+         /*Adjacente sibling combinator*/
+
+/* 
+    Ultiliza-se o Sinal + entre os seletores
+    Seleciona somente o Elelmento ao lado direito que é irmão direto na hierarquia
+
+    Ex: h1 + p{
+      aqui edita diratamente o p que é irmaõ de H1
+      pode se usar em elementos block para fazer espaçamentos 
+    }
+
+*/
+
+/*             General sibling Combinator*/
+/*
+     Identificado pelo sinal ~ entre dois seletores
+     Seleciona todos os elementos irmãos
+
+     Ex: H1 ~ p{
+        Aui ele vai pegar Todos os p irmãos do h1     
+    }
+
+*/
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/*                Pseudo-Classes
+
+/*
+               Seleciona o primeiro Filho da Classe  selecionado 
+    nomedaclass :first-child{
+
+    }
+
+               Seleciona o Segundo elemento  
+    nomedaclass :nth-of-type(2){    passando o numero 2 ele pega o segundo filho direto do nomedaclass se quiser o 3, basta por 3 e assim por diante   
+
+    }
+    
+               Seleciona o Segundo elemento  
+    nomedaclass :nth-child(2){  semelhante ao segundo mas nesse ele comsidera os elementos p dentrop de Nomedaclass não os filhos
+
+    }
+               Seleciona os elementos pares e impares em uma lista  
+    nomedaclass :nth-child(odd){  pega os impares
+              color: red;
+    }
+
+    nomedaclass :nth-child(even){  pega os pares
+              color: blue;
+    }
+    
+apoio: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
+    
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/*              Pseudo-elements
+    Adicionar elementos html no proprio css adiciona ::
+
+
+                Antes do conteudo
+nomedaclass ::before{
+    content:""
+}
+
+                 Depois do conteudo
+nomedaclass::after{
+    content:""
+}
+
+p :: firt-line{ pega somete a primeira linha dos textos}
+p:nth-of-type(2):: firt-line{ pega somete o segundo}
+
+
+Obss:  Sempre deve ser colocado o content: ""  mesmo que seja vazio
+
+Apoio: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements
+
+*/

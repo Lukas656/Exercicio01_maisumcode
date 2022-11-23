@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+.cards{
+    text-align: center; 
+    justify-content: center; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vh;
+    margin-left: 70vh;
+    border:1px solid;
+}

@@ -1,0 +1,104 @@
+/*
+
+
+      normal flow == maneira que os elem,entos ficam na pagina
+
+
+/--------------------------------------------------------------------------------------------/
+
+
+Flexbox = é uma caixa que se torna flex fazendo com que os elementos internos possam receber melhor:
+- Alinhamneto 
+- Ordenação
+- Tamanhos Flexíveis
+
+
+.nomedaClass{
+    display: flex;                        /* Deixa os elementos do nomedaClass lado a lado
+    justify-content: space-around;        /* Deixa os elementos do nomedaClass com um espaçamento entre eles 
+
+}
+Ex de um lista: 
+
+                   <ul>
+                        <li> A </li>
+                        <li> B </li>
+                        <li> C </li>
+                    </ul>    
+ul li:nth-child(1){
+    order: 1;
+    
+    O primeiro Elelmento "A" recebeu ordem "1" emquntos temto ele como os outros tinham oredem 0  então o posicionamento ficou B C A 
+ 
+}
+
+
+
+/--------------------------------------------------------------------------------------------/
+
+/*                            posição do justify-content no flex
+
+                                                  start |
+                                         start -            -end
+                                                  end   | 
+                                                
+.conteiner{
+    display: flex;
+    justify-content: flex-end;     /* Joga no final do eixo a esquerda 
+}
+*/
+
+
+/* Flex sizing altera a largura e altura dos itens para o preeechimento dos espaços do flex conteiner
+
+.conteiner{
+ display: flex;
+}
+
+.item{
+    flex: 1;
+}
+/--------------------------------------------------------------------------------------------/
+
+                        Propriedades do Flex Conteiner 
+                            - Direção dos itens 
+                            - multi Linhas
+                            - Alinhamento
+                              -Principal 
+                              -Cruzado
+                            -Espaços entre itens
+Direção dos itens 
+- por padrão ou ele vai adicionar os itens na posção Horizontal ou vertical.
+- podemos mudar a direção com Flex-direction
+- valores ( row , row-reverse , column , column-reverse ) 
+
+                                                  start |
+
+                                         start -      center    -end
+
+                                                  end   | 
+                                                
+.conteiner{
+    display: flex;
+    flex-direction: row-reverse;    /* Deixa os elelmentos reversos exemplo ABC ficaria CBA 
+}
+
+.conteiner{
+    display: flex;
+     justify-content: flex-start;   /* Joga no inicio do eixo a direita  (padrão)
+     justify-content: flex-end;     /* Joga no final do eixo a esquerda
+     justify-content: space-around;  /* Adiciona espaçamento ao redor deles
+     justify-content: space-between; /* Adiciona espaçamento entre deles
+     justify-content: space-evenly; /* Adiciona espaçamento por igual entre eles
+}
+
+
+
+/--------------------------------------------------------------------------------------------/
+.conteiner{
+    display: flex;
+    flex-flow: column wrap;  /* somente com flex-flow posso usar as duas propriedades column e wrap  
+}
+
+
+*/

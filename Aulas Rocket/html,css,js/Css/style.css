@@ -1,0 +1,54 @@
+
+
+/* Element Selector
+
+h1{
+    color:blue;
+    font-size: 60px;
+}
+
+p{
+    color:rgb(3, 94, 18);
+}
+
+/*ID Selector
+
+#titulo{
+    color: red;
+}
+
+#subtitulo{
+    color:blue;
+}
+
+
+/* class Selector
+
+.red{
+    color:red
+}
+
+.big{
+    font-size: 6em;
+}
+
+
+
+/* selector Atributo
+[title]{
+    color: orange;
+}
+
+*/
+
+/* selector pseudo cless*/ 
+
+p:hover{
+    color:red;
+}
+
+/* Multi selector  pseudo cless*/
+
+p, h1, .red{
+    color:red
+}

@@ -1,0 +1,198 @@
+
+*{margin: 0;}
+
+header{
+    padding: 4rem;
+    background-image: url('img/Capa_Fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+article{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav {
+    justify-content: space-between;
+}
+.temaTop{
+    width: 155px;
+}
+#sol , #lua{
+    height: 2.3rem;
+    width: 2.9rem;
+}
+
+#lua{
+    margin-left: 9px;
+}
+#sol:hover, #lua:hover{
+    background-color: rgb(216, 0, 0);
+}
+
+nav .theme{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    width: 6%;
+    height: 2em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child{
+    background: rgb(110, 1, 1);
+    color:white;
+    padding: .8rem;
+}
+
+.conteiner{
+    display: flex;
+    gap: 1rem;
+}
+
+main{
+    border: 1px solid;
+    
+}
+
+aside{
+    flex-basis: 25%;
+
+}
+main{
+    flex:1;
+}
+section{
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 10%;
+   gap: 2rem;
+}
+section h1{
+    width: 200%;
+}
+.gallery img{
+    margin-top: 0px;
+    width: 180px;
+    height: 180px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.selecionar{
+    text-align: center;
+}
+.selecionar button{
+    border-radius: 3px;
+    background-color: rgba(212, 2, 2, 0.813);
+    font-size: 15px;
+    width: 100%;
+}
+
+button:hover:not(.active) {
+    background-color: rgb(41, 41, 41);
+    color: white;
+  }
+
+
+.cards{
+    background-color: rgb(5, 5, 116);
+    color: white;
+    font-family: cursive;
+    border: 1px solid;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    border-bottom: 1px solid;
+}
+h2, h3{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.linkTrailer{
+    color: white;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+}
+.topo a{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(78, 77, 77);
+    border: 1px solid;
+}
+
+footer{
+    margin-top: auto;
+    background: gray;
+    color:white;
+    height: 5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seriado{
+    background-color: brown;
+}
+.geral{
+    display: flex;
+}
+.cronologia{
+    display:none;
+    flex-wrap:wrap;
+}
+.f1{
+ display: none;
+ flex-wrap: wrap;
+}
+.f2{
+    display: none;
+    flex-wrap: wrap;
+}
+.f3{
+    display: none;
+    flex-wrap: wrap;;
+}
+.f4{
+    display: none;
+    flex-wrap: wrap;
+}
+.f5{
+    display: none;
+    flex-wrap: wrap;
+}
+.f6{
+    display: none;
+    flex-wrap: wrap;
+}
+.series{
+    display:none;
+    flex-wrap:wrap;
+}

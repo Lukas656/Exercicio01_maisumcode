@@ -1,0 +1,7 @@
+{
+  "cursos": [
+    { "id": "1", "nome": "Html e CSS" },
+    { "id": "2", "nome": "JavaScript" },
+    { "id": "3", "nome": "Node.js" }
+  ]
+}
